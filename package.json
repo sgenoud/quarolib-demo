@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "build-storybook -o dist"
+  },
+  "author": "",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@storybook/addon-knobs": "^5.0.11",
+    "@storybook/react": "^5.0.10",
+    "babel-loader": "^8.0.5"
+  },
+  "dependencies": {
+    "mousetrap": "^1.6.3",
+    "polished": "3.1.0",
+    "prettier": "^1.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-portal": "^4.2.0",
+    "styled-components": "^4.2.0"
+  }
+}
